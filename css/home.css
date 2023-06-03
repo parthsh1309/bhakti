@@ -9,6 +9,10 @@
 
 header{
     background-image:linear-gradient(to right,#2C3E50,#4CA1AF) ;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .sub-head{
     width: 100%;

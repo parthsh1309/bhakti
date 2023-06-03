@@ -1,170 +1,174 @@
-body{
-    background-color: rgb(244, 243, 243) ;
+body {
+  background-color: rgb(244, 243, 243);
 }
 
-.Container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 100vh;
-    gap: 10px;
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  gap: 10px;
 }
-.Container .chalisa{
-    background-image:linear-gradient(to right,#141e30cb,#243b55ee);
-    width: 50vw;
-    height: 15%;
-    border-radius:30pc;
-    display: flex;
-    justify-content: space-evenly; 
-    cursor: pointer;   
-}
-
-.chalisa img{
-    border-radius: 100%;
-    width: 15%;
-}
-.chalisa h1{
-    align-self: center;
-    color: wheat;
-}
-.hanuman img{
-    margin-left: 20px;
+.Container .chalisa {
+  background-image: linear-gradient(to right, #141e30cb, #243b55ee);
+  width: 50vw;
+  height: 15%;
+  border-radius: 30pc;
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
 }
 
-.shiv img{
-    margin-left: -20px;
+.chalisa img {
+  border-radius: 100%;
+  width: 15%;
+}
+.chalisa h1 {
+  align-self: center;
+  color: wheat;
+}
+.hanuman img {
+  margin-left: 20px;
 }
 
-.Container .chalisa:hover{
-    background-image:linear-gradient(to right,#141e30,#243b55)
+.shiv img {
+  margin-left: -20px;
 }
 
-@media screen and (max-width:500px){
-    .Container h1{
-        font-size: 18px;
-    }
-    .ganesha img{
-        margin-left: -30px;
-    }
-    .hanuman img{
-        margin-left: -10px;
-    }
-    .vishnu img{
-        margin-left: -24px;
-    }
-    .shiv img{
-        margin-left: -36px;
-    }
+.Container .chalisa:hover {
+  background-image: linear-gradient(to right, #141e30, #243b55);
 }
 
 @media screen and (max-width: 1300px) {
-    .chalisa img{
-        width:30%;
-    }
-    
+  .chalisa img {
+    width: 30%;
+  }
 }
 @media screen and (max-width: 900px) {
-    .Container .chalisa{
-        width: 95%;
-    }
+  .Container .chalisa {
+    width: 95%;
+  }
 }
 
-article{
-    display:flex ;
-    flex-direction: column;
+article {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.cont h2 {
+  margin-left: 37%;
+  font-size: 30px;
+  text-decoration: underline;
+  color: blue;
+}
+.cont h1 {
+    margin-left: 85px;
+  font-size: 50px;
+  text-decoration: underline;
+  margin-bottom: 30px;
+  color: red;
+}
+.ganesh h1{
+margin-left: 23%;
+}
+
+.cont p {
+  font-size: 30px;
+  font-weight: bold;
+}
+.short-1 {
+  margin-left: 21%;
+}
+.short {
+  margin-left: 13%;
+}
+.left {
+  margin-left: 75px;
+}
+
+@media screen and (max-width: 610px) {
+  .cont p {
+    font-size: 23px;
+    font-weight: bold;
+    padding-left: 10px;
+  }
+  .cont h1 {
+    margin-left: 17%;
+  }
+}
+@media screen and (max-width: 500px) {
+}
+
+article img {
+  margin-right: -14px;
+  width: 50%;
+  border-radius: 50px;
+  border: 3px solid black;
+}
+
+.hanuman .chopayi {
+  padding-left: 80px;
+}
+
+.hanuman .hanuman-img {
+  width: 90%;
+  margin-right: 20px;
+}
+
+h3 {
+  margin: 0 auto;
+}
+
+  @media screen and (max-width: 500px) {
+    .Container h1 {
+      font-size: 18px;
+    }
+    .ganesha img {
+      margin-left: -30px;
+    }
+    .hanuman img {
+      margin-left: -10px;
+    }
+    .vishnu img {
+      margin-left: -24px;
+    }
+    .shiv img {
+      margin-left: -36px;
+    }
+    .cont h1 {
+      font-size: 30px;
+    }
+    .cont p {
+      font-size: 14px;
+    }
+    .cont .left {
+      margin-left: 24px;
+    }
+    .cont .short-1 {
+      margin-left: 75px;
+    }
+    article {
+      padding: 0;
+    }
+    .hanuman .hanuman-img {
+      width: 70%;
+      margin-left: 35px;
+    }
+    .hanuman .chopayi {
+      margin-left: 2px;
+    }
+    .hanuman .doha {
+      margin-left: 25px;
+    }
+    .hanuman .doha-2 {
+      margin-left: 19px;
+    }
+  }
+.cont .chopayi-container{
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
 }
-.cont h2{
-   margin-left: 37%;
-   font-size: 30px;
-   text-decoration: underline;
-   color: blue;
-}
-.cont h1{
-    margin-left: 23%;
-    font-size: 50px;
-    text-decoration: underline;
-    margin-bottom: 30px;
-    color: red;
-}
-
-.cont p{
-    font-size: 30px;
-    font-weight: bold;
-}
-.short-1{
-    margin-left: 21%;
-}
-.short{
-    margin-left: 13%;
-}
-.left{
-    margin-left: 75px;
-}
-
-@media screen and (max-width : 610px) {
-    .cont p{
-        font-size: 23px;
-        font-weight: bold;
-        padding-left: 10px;
-
-    }
-    .cont h1{
-        margin-left: 17%;
-    }
-}
-@media screen and (max-width : 500px) {
-   .cont h1{
-    font-size: 30px;
-   }
-   .cont p{
-    font-size: 14px;
-   }
-   .cont .left{
-    margin-left: 24px;
-   }
-   .cont .short-1{
-    margin-left: 75px;
-   }
-   article{
-    padding: 0;
-   }
-   .hanuman .hanuman-img{
-    width: 70%;
-    margin-left: 15px;
-}
-.hanuman .chopayi{
-    margin-left: -10px;
-}
-.hanuman .doha{
-    margin-left: 25px;
-}
-.hanuman .doha-2{
-    margin-left: 19px;
-}
-
-}
-
-article img{
-    margin-right: -14px;
-    width: 50%;
-    border-radius: 50px;
-    border: 3px solid black;
-}
-
-.hanuman .chopayi{
-    padding-left: 80px;
-}
-
-.hanuman .hanuman-img{
-    width: 90%;
-    margin-right: 20px;
-}
-
-h3{
-    margin:0 auto;
-}
-
