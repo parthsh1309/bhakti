@@ -40,6 +40,24 @@ body{
     background-image:linear-gradient(to right,#141e30,#243b55)
 }
 
+@media screen and (max-width:500px){
+    .Container h1{
+        font-size: 18px;
+    }
+    .ganesha img{
+        margin-left: -30px;
+    }
+    .hanuman img{
+        margin-left: -10px;
+    }
+    .vishnu img{
+        margin-left: -24px;
+    }
+    .shiv img{
+        margin-left: -36px;
+    }
+}
+
 @media screen and (max-width: 1300px) {
     .chalisa img{
         width:30%;
@@ -98,9 +116,40 @@ article{
         margin-left: 17%;
     }
 }
+@media screen and (max-width : 500px) {
+   .cont h1{
+    font-size: 30px;
+   }
+   .cont p{
+    font-size: 14px;
+   }
+   .cont .left{
+    margin-left: 24px;
+   }
+   .cont .short-1{
+    margin-left: 75px;
+   }
+   article{
+    padding: 0;
+   }
+   .hanuman .hanuman-img{
+    width: 70%;
+    margin-left: 15px;
+}
+.hanuman .chopayi{
+    margin-left: -10px;
+}
+.hanuman .doha{
+    margin-left: 25px;
+}
+.hanuman .doha-2{
+    margin-left: 19px;
+}
+
+}
 
 article img{
-    margin-right: 30px;
+    margin-right: -14px;
     width: 50%;
     border-radius: 50px;
     border: 3px solid black;
@@ -114,3 +163,8 @@ article img{
     width: 90%;
     margin-right: 20px;
 }
+
+h3{
+    margin:0 auto;
+}
+
