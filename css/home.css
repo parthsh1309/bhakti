@@ -88,10 +88,10 @@ main{
         gap: 100px;
     }
     .box{
-        width: 70%;
+        width: 90%;
     }
 
     .container .box:hover{
-        width: 72%;
+        width: 92%;
     }
 }
