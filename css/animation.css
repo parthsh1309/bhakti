@@ -1,0 +1,14 @@
+.radhe .line-1{
+    animation: line-1 8s ease-out infinite;
+}
+
+@keyframes line-1 {
+    0%{opacity:0;}
+    25%{opacity:0.5 ;}
+    50%{opacity:1 ;}
+    75%{opacity:0.5 ;}
+    85%{opacity:0 ;}
+    90%{opacity:0 ;}
+    95%{opacity:0 ;}
+    100%{opacity:0;}
+}
