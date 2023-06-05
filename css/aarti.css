@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap");
+
+body {
+  background-color: rgb(244, 243, 243);
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+.Container .aarti {
+  background-image: linear-gradient(to right, #141e30cb, #243b55ee);
+  width: 51vw;
+  height: 15%;
+  border-radius: 30pc;
+  display: flex;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+.Container img {
+  border-radius: 100%;
+  width: 9vw;
+}
+.Container h1 {
+  font-family: "kanit", sans-serif;
+  color: wheat;
+}
+.Container .aarti:hover {
+  background-image: linear-gradient(to right, #141e30, #243b55);
+}
+.Container .vishnu img{
+    /* width: 27%; */
+}
+@media screen and (max-width: 1300px) {
+.aarti img {
+      width: 9vw;
+    }
+  }
+
+@media screen and (max-width:700px){
+    .Container .aarti{
+        width: 70%;
+    }
+    .aarti img {
+      width: 15vw;
+    }
+}
+@media screen and (max-width:500px){
+    .Container h1{
+        font-size: 20px;
+    }
+    .Container .aarti{
+        width: 90%;
+    }
+    .aarti img {
+      width: 25vw;
+    }
+    .hanuman img {
+      margin-left: 20px;
+    }
+}
