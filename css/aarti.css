@@ -26,7 +26,9 @@ body {
 }
 .Container img {
   border-radius: 100%;
-  width: 9vw;
+  /* width: 9vw; */
+  aspect-ratio: 6/5;
+  /* margin-left: -20px; */
 }
 .Container h1 {
   font-family: "kanit", sans-serif;
@@ -38,31 +40,67 @@ body {
 .Container .vishnu img{
     /* width: 27%; */
 }
-@media screen and (max-width: 1300px) {
-.aarti img {
-      width: 9vw;
-    }
-  }
 
-@media screen and (max-width:700px){
-    .Container .aarti{
-        width: 70%;
-    }
-    .aarti img {
-      width: 15vw;
-    }
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-@media screen and (max-width:500px){
-    .Container h1{
+
+article h1{
+  font-size: 50px;
+  color: red;
+  text-decoration: underline;
+}
+article p{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+article img{
+  width: 40%;
+  height: 40%;
+  border-radius: 20px;
+}
+  @media screen and (max-width: 1300px) {
+  .aarti img {
+        width: 9vw;
+      }
+    }
+  
+  @media screen and (max-width:700px){
+      .Container .aarti{
+          width: 70%;
+      }
+      .aarti img {
+        width: 15vw;
+      }
+  }
+  @media screen and (max-width:500px){
+      .Container h1{
+          font-size: 20px;
+      }
+      .Container .aarti{
+          width: 99%;
+      }
+      .aarti img {
+        width: 33vw;
+        aspect-ratio: 7/5;
+      }
+      .hanuman img {
+        margin-left: 20px;
+      }
+      article h1{
+        font-size: 30px;
+      }
+      article p{
         font-size: 20px;
-    }
-    .Container .aarti{
-        width: 99%;
-    }
-    .aarti img {
-      width: 33vw;
-    }
-    .hanuman img {
-      margin-left: 20px;
-    }
-}
+      }
+      article img{
+        height: 70%;
+        width: 70%;
+      }
+      article .long{
+        font-size: 13px;
+      }
+  }
