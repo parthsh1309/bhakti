@@ -87,7 +87,7 @@ let line2 = document.querySelector(".line-2");
 const func = ()=>{
     let random = Math.floor(Math.random() * radhaNam.length + 1);
     console.log(random)
-    line1.innerHTML = radhaNam[random].name + ',';
+    line1.innerHTML = radhaNam[random].name+',';
 }
 setInterval(func,8000)
 

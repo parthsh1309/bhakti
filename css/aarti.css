@@ -46,6 +46,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+article{
+  display: flex;
+  flex-direction: column;
+}
 
 article h1{
   font-size: 50px;
